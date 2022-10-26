@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2022/design-system/ --out ../../dist/2022/design-system",
+    "export": "slidev export --output ../2022-08-01-design-system.pdf"
+  }
+}
