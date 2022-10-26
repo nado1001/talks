@@ -8,6 +8,7 @@ importers:
       '@slidev/cli': ^0.36.9
       '@slidev/theme-default': ^0.21.2
       playwright-chromium: ^1.27.1
+      pnpm: ^7.14.0
       rimraf: ^3.0.2
       slidev-theme-geist: ^0.8.1
     devDependencies:
@@ -15,6 +16,7 @@ importers:
       '@slidev/cli': 0.36.9_l3tqfb2r5yeeblinxxhxcqywkq
       '@slidev/theme-default': 0.21.2
       playwright-chromium: 1.27.1
+      pnpm: 7.14.0
       rimraf: 3.0.2
       slidev-theme-geist: 0.8.1
 
@@ -2783,6 +2785,12 @@ packages:
   /playwright-core/1.27.1:
     resolution: {integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==}
     engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /pnpm/7.14.0:
+    resolution: {integrity: sha512-yUKSckJLBIw8ByqMKJF9497kzwrevuQhdL6o2eYbky7woAictxoGX9veBdQYCdBemuC239X2FJq/LGTpCjQ55w==}
+    engines: {node: '>=14.6'}
     hasBin: true
     dev: true
 
