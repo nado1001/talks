@@ -16,3 +16,8 @@
   from = "/2022/code-review/*"
   to = "/2022/code-review/index.html"
   status = 200
+
+[[redirects]]
+  from = "/"
+  to = "https://nado1999.me/"
+  status = 302
