@@ -18,6 +18,11 @@
   status = 200
 
 [[redirects]]
+  from = "/2022/astro-introduce/*"
+  to = "/2022/astro-introduce/index.html"
+  status = 200
+
+[[redirects]]
   from = "/"
   to = "https://nado1999.me/"
   status = 302
